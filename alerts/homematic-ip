@@ -1,0 +1,13 @@
+---
+title: "Homematic IP Alarm Panel no longer working"
+created: 2021-06-24T09:37:25:00+02:00
+integrations:
+  - homematicip_cloud
+packages:
+  - homematicip
+github_issue: https://github.com/home-assistant/core/issues/51612
+homeassistant: ">2021.5"
+---
+
+In the geniue Homematic IP app in Android phone, status of Alarm Panel is correct for example "armed".
+The status is never refreshed in Home Assistant and the entities for internal and external security zones are gone.
